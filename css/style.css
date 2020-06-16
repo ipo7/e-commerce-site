@@ -1250,6 +1250,12 @@ body {
   }
 }
 
+@media screen and (max-width: 380px) {
+  .searching-block__input {
+    padding-bottom: 5px;
+  }
+}
+
 .searching-block__input::-webkit-input-placeholder {
   opacity: 0.7;
   font-size: 24px;
@@ -1305,6 +1311,24 @@ body {
   }
   .searching-block__input::placeholder {
     font-size: calc((100vw - 320px)/(768 - 320) * (20 - 12) + 12px);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .searching-block__input::-webkit-input-placeholder {
+    line-height: 12px;
+  }
+  .searching-block__input::-moz-placeholder {
+    line-height: 12px;
+  }
+  .searching-block__input:-ms-input-placeholder {
+    line-height: 12px;
+  }
+  .searching-block__input::-ms-input-placeholder {
+    line-height: 12px;
+  }
+  .searching-block__input::placeholder {
+    line-height: 12px;
   }
 }
 
