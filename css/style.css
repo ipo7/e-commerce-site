@@ -1664,6 +1664,13 @@ body {
   }
 }
 
+@media screen and (max-width: 667px) {
+  .footer__top-email {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .footer__top-email {
     font-size: 12px;
@@ -1678,7 +1685,6 @@ body {
   .footer__top-email {
     font-size: 10px;
     height: 21px;
-    padding-top: 2px;
     line-height: 10px;
   }
 }
