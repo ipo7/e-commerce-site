@@ -1670,6 +1670,7 @@ body {
     height: 23px;
     width: 160px;
     margin: 0 auto;
+    line-height: 12px;
   }
 }
 
@@ -1677,7 +1678,8 @@ body {
   .footer__top-email {
     font-size: 10px;
     height: 21px;
-    line-height: 12px;
+    padding-top: 2px;
+    line-height: 10px;
   }
 }
 
