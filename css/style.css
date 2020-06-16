@@ -1668,6 +1668,7 @@ body {
   .footer__top-email {
     font-size: 14px;
     line-height: 10px;
+    padding-top: 2px;
   }
 }
 
