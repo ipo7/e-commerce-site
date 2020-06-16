@@ -1250,12 +1250,6 @@ body {
   }
 }
 
-@media screen and (max-width: 380px) {
-  .searching-block__input {
-    padding-bottom: 5px;
-  }
-}
-
 .searching-block__input::-webkit-input-placeholder {
   opacity: 0.7;
   font-size: 24px;
