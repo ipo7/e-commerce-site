@@ -46,7 +46,7 @@ $(function() {
     }, 200);
   });
 
-  $('.footer__vendors > div').on('click touchend', function(e) {
+  $('.footer__vendors > div').on('touchend', function(e) {
     // e.stopPropagation();
     e.preventDefault();
 
@@ -54,12 +54,12 @@ $(function() {
     $(this).css('transform', 'rotate(0deg)');
   });
 
-  $('.footer__vendors > div').on('click touchstart', function(e) {
+  $('.footer__vendors > div').on('touchstart', function(e) {
     // e.stopPropagation();
     e.preventDefault();
 
     // console.log('gesg')
-    $(this).css('transform', 'rotate(20deg)');
+    $(this).css('transform', 'rotate(10deg)');
   });
 
 
