@@ -1221,7 +1221,7 @@ body {
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
-  background: url("/img/icons/search_icon.png") no-repeat;
+  background: url("./img/icons/search_icon.png") no-repeat;
   background-position: right 20px top 12px;
 }
 
@@ -1906,4 +1906,4 @@ body {
   }
 }
 
-.webp .searching-block__input{ background: url(/img/icons/search_icon.webp) no-repeat; }
+.webp .searching-block__input{ background: url(./img/icons/search_icon.webp) no-repeat; }
