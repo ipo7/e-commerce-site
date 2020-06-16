@@ -1257,7 +1257,7 @@ body {
 }
 
 .searching-block__input::-webkit-input-placeholder {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -1265,7 +1265,7 @@ body {
 }
 
 .searching-block__input::-moz-placeholder {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -1273,7 +1273,7 @@ body {
 }
 
 .searching-block__input:-ms-input-placeholder {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -1281,7 +1281,7 @@ body {
 }
 
 .searching-block__input::-ms-input-placeholder {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -1289,7 +1289,7 @@ body {
 }
 
 .searching-block__input::placeholder {
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 24px;
   font-weight: 300;
   letter-spacing: -0.04em;
@@ -1316,19 +1316,19 @@ body {
 
 @media screen and (max-width: 380px) {
   .searching-block__input::-webkit-input-placeholder {
-    line-height: 12px;
+    line-height: 10px;
   }
   .searching-block__input::-moz-placeholder {
-    line-height: 12px;
+    line-height: 10px;
   }
   .searching-block__input:-ms-input-placeholder {
-    line-height: 12px;
+    line-height: 10px;
   }
   .searching-block__input::-ms-input-placeholder {
-    line-height: 12px;
+    line-height: 10px;
   }
   .searching-block__input::placeholder {
-    line-height: 12px;
+    line-height: 10px;
   }
 }
 
