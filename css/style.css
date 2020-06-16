@@ -1677,7 +1677,7 @@ body {
   .footer__top-email {
     font-size: 10px;
     height: 21px;
-    vertical-align: middle;
+    padding-bottom: 7px;
   }
 }
 
