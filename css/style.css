@@ -1664,7 +1664,7 @@ body {
   }
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 670px) {
   .footer__top-email {
     font-size: 14px;
     line-height: 14px;
