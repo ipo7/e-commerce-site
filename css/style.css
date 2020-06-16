@@ -1316,19 +1316,19 @@ body {
 
 @media screen and (max-width: 380px) {
   .searching-block__input::-webkit-input-placeholder {
-    padding-top: 3px;
+    padding-top: 5px;
   }
   .searching-block__input::-moz-placeholder {
-    padding-top: 3px;
+    padding-top: 5px;
   }
   .searching-block__input:-ms-input-placeholder {
-    padding-top: 3px;
+    padding-top: 5px;
   }
   .searching-block__input::-ms-input-placeholder {
-    padding-top: 3px;
+    padding-top: 5px;
   }
   .searching-block__input::placeholder {
-    padding-top: 3px;
+    padding-top: 5px;
   }
 }
 
