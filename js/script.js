@@ -46,6 +46,23 @@ $(function() {
     }, 200);
   });
 
+  $('.footer__vendors > div').on('click touchend', function(e) {
+    // e.stopPropagation();
+    e.preventDefault();
+
+    // console.log('gesg')
+    $(this).css('transform', 'rotate(0deg)');
+  });
+
+  $('.footer__vendors > div').on('click touchstart', function(e) {
+    // e.stopPropagation();
+    e.preventDefault();
+
+    // console.log('gesg')
+    $(this).css('transform', 'rotate(20deg)');
+  });
+
+
   $('.header__menu .menu__item:nth-child(1), .header__menu_disable .menu__item:nth-child(1)').on('click touchend', function(e) {
     // e.stopPropagation();
     e.preventDefault();
@@ -93,32 +110,31 @@ $(function() {
     prevArrow: '.news-lent__arrow',
     nextArrow: '.arrow_right',
     dots: true,
-    responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        centerPadding: 40,
-      }
-    },
+    responsive: [{
+        breakpoint: 1024,
+        settings: {
+          centerPadding: 40,
+        }
+      },
 
-    {
-      breakpoint: 650,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        centerMode: false,
-      }
-    },
-    {
-      breakpoint: 450,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: false,
-      }
-    },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          centerMode: false,
+        }
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+        }
+      },
 
-  ]
+    ]
 
   });
 
