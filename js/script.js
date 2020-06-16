@@ -56,7 +56,7 @@ $(function() {
 
   $('.footer__vendors > div').on('touchstart', function(e) {
     // e.stopPropagation();
-    e.preventDefault();
+    // e.preventDefault();
 
     // console.log('gesg')
     $(this).css('transform', 'rotate(10deg)');
