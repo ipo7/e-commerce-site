@@ -1087,6 +1087,9 @@ body {
 }
 
 .news-lent .slick-slide.slick-current .news-lent-item__text {
+  -webkit-transition: color 0.5s 0.4s;
+  -o-transition: color 0.5s 0.4s;
+  transition: color 0.5s 0.4s;
   color: #c5c6ca;
 }
 

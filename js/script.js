@@ -103,13 +103,11 @@ $(function() {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // infinite: false,
     centerMode: true,
-
-    // variableWidth: true
     prevArrow: '.news-lent__arrow',
     nextArrow: '.arrow_right',
     dots: true,
+    speed: 700,
     responsive: [{
         breakpoint: 1024,
         settings: {
